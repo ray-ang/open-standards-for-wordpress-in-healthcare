@@ -74,6 +74,20 @@ User attributes can be extended using custom fields. Roles can be created and ex
 
 <br />
 
+## Collaborators
+
+Raymund John Ang - Project Lead, Open-NIS; Registered Nurse, Pennsylvania, USA
+
+Jai Ganesh Udayasankaran - Member, Governing Committee, AeHIN; Senior Manager, Health Care Information Technology and Telehealth Sri Sathya Sai Central Trust, India
+
+Hussein Catanyag - Clinical Instructor, College of Nursing, Manila Tytana Colleges (Manila Doctor’s College of Nursing), Philippines
+
+Dr. Mean Reatanak Sambath - Executive Director, Partnership for Better Health, Cambodia
+
+Dr. Pornchai Chanyagorn - Faculty of Engineering, Mahidol University, Thailand
+
+<br />
+
 ## References
 
 Brazell, A. (2011). WordPress Bible (2nd ed.). Indianapolis, IN: Wiley Publishing Inc.
