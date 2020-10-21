@@ -3,9 +3,11 @@
 <br />
 
 ```
-Disclaimer: Code review of the WordPress code base and/or other security measures,
-such as vulnerability assessment and penetration testing, should be done to ensure
-security of sensitive and privacy-related applications, like healthcare applications.
+Disclaimer: Code review of the WordPress code base
+and/or other security measures, such as vulnerability
+assessment and penetration testing, should be done
+to ensure security of sensitive and privacy-related
+applications, like healthcare applications.
 ```
 
 <br />
