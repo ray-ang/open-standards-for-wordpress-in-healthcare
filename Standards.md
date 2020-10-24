@@ -77,6 +77,8 @@ User attributes can be extended using custom fields. Roles can be created and ex
 
 ## Collaborators
 
+### v1.0
+
 Raymund John Ang - Project Lead, Open-NIS; Registered Nurse, Pennsylvania, USA
 
 Jai Ganesh Udayasankaran - Member, Governing Committee, AeHIN; Senior Manager, Health Care Information Technology and Telehealth Sri Sathya Sai Central Trust, India
