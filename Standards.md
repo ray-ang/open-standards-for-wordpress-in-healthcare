@@ -49,11 +49,11 @@ There are methods and plugins that would allow the inclusion of custom fields as
 
 <br />
 
-### 3. Data entry and modification by users should be done in the front-end. Only administrators should have access to the back-end, including the dashboard and admin bar.
+### 3. Data entry and modification by regular users should be done in the front-end. Only administrators and privileged users should have access to the administrative interface area, including the dashboard and admin bar. Limited access to the administrative area for regular users can be allowed, such as when modifying profile settings.
  
-As a platform initially created for blogging, the WordPress dashboard was designed for interaction between contributors/authors and editors/publishers. The administrative back-end revolves around content creation, editing and publishing. For security reasons and to have a smooth user experience that extends outside the realm of blogging, all data entry and modification by users should be done in the front-end. There are plugins available to achieve this functionality. Advanced developers can also use custom codes to lock these back-end features for administrator access only.
+As a platform initially created for blogging, the WordPress admin dashboard was designed for the interaction between contributors/authors and editors/publishers. The administrative area revolves around content creation, editing and publishing. For security reasons and to have a smooth user experience that extends outside the realm of blogging, ideally, all data entry and modification by regular users should be done in the front-end. There are plugins available to achieve this functionality. Advanced developers can also use custom codes to lock these administrative features for administrator access only. If the project calls for regular user access to the administrative area, such as when modifying profile settings, only limited access should be allowed to avoid potential security issues.
 
-The developer has the option to manually code the form layout in the front-end, or use plugins to create submission forms or edit fields. The decision of whether to use manual code or plugins to lock regular users from accessing the dashboard, admin bar, and other back-end features depends on project management and security measures instituted.
+The developer has the option to manually code the form layout in the front-end, or use plugins to create submission forms and edit fields. The decision of whether to use manual coding or plugins to restrict or limit regular users from accessing the dashboard, admin bar, and other administrative interface features depends on project management and security measures instituted.
 
 <br />
  
