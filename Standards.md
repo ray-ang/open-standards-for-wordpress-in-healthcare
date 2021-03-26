@@ -19,7 +19,7 @@ The standards focus on WordPress application development where there are multipl
 
 ## Scope
 
-The Open Standards for WordPress in Healthcare focuses on four (4) main aspects of application development – data management, data presentation, security and user access levels. The standards will guide healthcare professionals on how they will define, store and manipulate data in the database; how these stored data can be presented using codes or plugins; preventing user access to the dashboard and admin bar for security; and how to provide user access privileges using the default settings.
+The Open Standards for WordPress in Healthcare focuses on four (4) main aspects of application development – data management, data presentation, security and user access levels. The standards will guide healthcare professionals on how they will define, store and manipulate data in the database; how these stored data can be presented using codes or plugins; allowing limited user access to the dashboard and admin bar for security; and how to provide user access privileges using the default settings.
 
 <br />
 
