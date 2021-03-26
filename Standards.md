@@ -25,8 +25,9 @@ The Open Standards for WordPress in Healthcare focuses on four (4) main aspects 
 
 ```
 Title: Open Standards for WordPress in Healthcare
-Version: v1.0
+Version: v1.1
 Initial Publication: March 14, 2018
+Revised Publication: March 25, 2021
 ``` 
 
 <br />
