@@ -45,7 +45,7 @@ There are methods and plugins that would allow the inclusion of custom fields as
 
 <br />
 
-### Section 3. <em>Access Level</em> - Default or custom user roles and capabilities shall be used to grant data access.
+### Section 3. <em>Access Control</em> - Default or custom user roles and capabilities shall be used to grant data access.
  
 As a platform initially created for blogging, the WordPress admin dashboard was designed for the interaction between contributors/authors and editors/publishers. The administrative area revolves around content creation, editing and publishing. For security reasons and to have a smooth user experience that extends outside the realm of blogging, ideally, all data entry and modification by regular users should be done in the front-end. There are plugins available to achieve this functionality. Advanced developers can also use custom codes to lock these administrative features for administrator access only. If the project calls for regular user access to the administrative area, such as when modifying profile settings, only limited access should be allowed to avoid potential security issues.
 
