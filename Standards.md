@@ -64,9 +64,13 @@ User attributes can be extended using custom fields. Roles can be created and ex
 
 ### Section 4. <em>Application Programming Interface (API)</em> - Default Representational State Transfer (REST) API shall be used for system interoperability.
 
+Healthcare systems connecting to a WordPress-based health IT system should use the default or built-in REST API to communicate with the WordPress-based system. There is the option though to use a more standardized approach, like HL7 FHIR. However, the JavaScript Object Notation (JSON) format of information exchange provided for by WordPress-based systems can be considered a JSON-based standard for interoperability.
+
 <br />
 
 ### Section 5. <em>Modular Extensibility</em> - Modular extensibility of features and functionalities shall be done through plugins.
+
+Adding features and functionalities to WordPress-based healthcare applications should not involve modifying WordPress core files or configurations. Instead, plugins should be created to further expand the features and functionalities of these applications.
 
 <br />
 
