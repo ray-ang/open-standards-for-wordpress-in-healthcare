@@ -32,7 +32,7 @@ Revised Publication: March 25, 2021
 
 <br />
 
-### 1. Data should be defined as custom post type, and stored in the posts table of the WordPress database. 
+### Section 1. <em>Custom Post Type</em> - Data shall be defined as a custom post type. 
 
 Most, if not all, healthcare web applications are database-driven applications. Database design usually dictates that data entries of different types should be stored in different tables to give structure and improve query performance. As an example, there should be one table for the list of patients and custom fields, a separate table for clinic or hospital visits, and another table for doctors or care providers and associated attributes.
 
@@ -42,7 +42,7 @@ If the data concerned is a news update, a blog post, or an entry of that nature,
 
 <br />
 
-### 2. Data entry fields other than those that can be found in the posts table, should be treated as meta or custom fields and stored either (a) in the postmeta table of the WordPress database as meta fields, or (b) in a separate custom table for each custom post type as custom fields.
+### Section 2. <em>Custom Fields</em> - Custom data fields shall be defined as post meta fields.
   
 Instead of creating additional table columns in the posts table, WordPress utilizes the postmeta table to extend data fields using metadata or custom fields, such as age, sex, date of admission, reason for admission, physician, and the likes. These metadata point to a particular post entry which is defined by the custom post type – patient, visit, or doctor for example.
 
@@ -50,29 +50,23 @@ There are methods and plugins that would allow the inclusion of custom fields as
 
 <br />
 
-### 3. Data entry and modification by regular users should be done in the front-end. Only administrators and privileged users should have access to the administrative interface area, including the dashboard and admin bar. Limited access to the administrative area for regular users can be allowed, such as when modifying profile settings.
+### Section 3. <em>Access Level</em> - Default or custom user roles and capabilities shall be used to grant data access.
  
 As a platform initially created for blogging, the WordPress admin dashboard was designed for the interaction between contributors/authors and editors/publishers. The administrative area revolves around content creation, editing and publishing. For security reasons and to have a smooth user experience that extends outside the realm of blogging, ideally, all data entry and modification by regular users should be done in the front-end. There are plugins available to achieve this functionality. Advanced developers can also use custom codes to lock these administrative features for administrator access only. If the project calls for regular user access to the administrative area, such as when modifying profile settings, only limited access should be allowed to avoid potential security issues.
 
 The developer has the option to manually code the form layout in the front-end, or use plugins to create submission forms and edit fields. The decision of whether to use manual coding or plugins to restrict or limit regular users from accessing the dashboard, admin bar, and other administrative interface features depends on project management and security measures instituted.
 
-<br />
- 
-### 4. When displaying custom fields, the developer can (a) use the WordPress template development process by creating a “single-post_type.php” file inside a child theme folder for each custom post type, (b) use plugins to display custom fields through a templating system, or (c) use the content area as a template canvas to display custom fields.
- 
-When creating WordPress post templates, the developer needs to have good knowledge in PHP, HTML and CSS to properly display metadata or custom fields. Configuring single post type templates can be done by creating a “single-post_type.php” file inside a child theme folder for each custom post type. The reason for creating a child theme and placing the changes inside the child theme folder is to prevent updates to the parent theme from modifying or deleting changes made, like post and page templates. The WordPress Codex contains valuable resources in WordPress development, including child theme development (https://codex.wordpress.org/Child_Themes).
-
-There are plugins available that would allow designing of post templates without creating a child theme and manually coding a “single-post_type.php” file for each custom post type. These plugins, however, use their own templating system to render the post templates in displaying custom fields. So when these plugins are deactivated, the system will revert back to the default post template.
-
-For technology-inclined healthcare professionals who are just starting to delve into WordPress development, the content editor can be a good area to display custom fields using shortcodes specific to particular custom fields plugins. The WordPress content editor is a What-You-See-Is-What-You-Get (WYSIWYG) editor and can be used as a template canvas where custom fields can be displayed using shortcodes.
-
-<br /> 
- 
-### 5. Users, roles or user groups, access levels and capabilities should be based on default WordPress settings.
- 
 For security reasons and to adhere to default WordPress settings and installation, users, roles or user groups, access levels and capabilities should be based on default WordPress settings.
 
 User attributes can be extended using custom fields. Roles can be created and extended, with capabilities added or removed. These roles need to be in the default settings and not dependent on third-party plugins using different database structure. It may be possible though for plugins to have their own set of roles or groups, but these have to be synchronized with the default WordPress roles to adhere to this standard.
+
+<br />
+
+### Section 4. <em>Application Programming Interface (API)</em> - Default Representational State Transfer (REST) API shall be used for system interoperability.
+
+<br />
+
+### Section 5. <em>Modular Extensibility</em> - Modular extensibility of features and functionalities shall be done through plugins.
 
 <br />
 
