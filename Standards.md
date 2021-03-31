@@ -3,11 +3,11 @@
 <br />
 
 ```
-Disclaimer: Code review of the WordPress code base
-and/or other security measures, such as vulnerability
-assessment and penetration testing, should be done
-to ensure security of sensitive and privacy-related
-applications, like healthcare applications.
+Disclaimer: Code review of the WordPress code base and/or other security measures, such as vulnerability assessment and
+penetration testing, should be done to ensure security of sensitive and privacy-related applications, like healthcare
+applications. If the data controller or covered entity does not have direct access or control of the application source
+code, application server or data management server, the data controller or covered entity must have a data processing
+or business associate agreement with the data processor or business associate.
 ```
 
 <br />
