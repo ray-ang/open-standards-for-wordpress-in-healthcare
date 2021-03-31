@@ -12,14 +12,9 @@ or business associate agreement with the data processor or business associate.
 
 <br />
 
-The Open Standards for WordPress in Healthcare aims to standardize application development in healthcare using WordPress content management system as application development platform. These standards go beyond the use of the content management system as a tool for creating informational or brochure-type websites or blogging, and extends to mission critical operation applications.
-
-The standards focus on WordPress application development where there are multiple users with varying access level permissions to different types of content. Use of these open standards can be extended beyond the field of nursing – to other fields of healthcare service.
-
-
 ## Scope
 
-The Open Standards for WordPress in Healthcare focuses on four (4) main aspects of application development – data management, data presentation, security and user access levels. The standards will guide healthcare professionals on how they will define, store and manipulate data in the database; how these stored data can be presented using codes or plugins; allowing limited user access to the dashboard and admin bar for security; and how to provide user access privileges using the default settings.
+The <em>Open Standards for WordPress in Healthcare</em> focuses on how WordPress-based health IT application systems are to be built. This document aims to standardize application development in healthcare using WordPress-based content management systems as application development platform. This document goes beyond the use of the content management system as a tool for creating informational or brochure-type websites or blogging, and extends to mission critical healthcare applications.
 
 <br />
 
